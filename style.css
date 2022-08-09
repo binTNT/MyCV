@@ -231,6 +231,10 @@ table {
     body {
         font-size: 7px;
     }
+    #container {
+        margin: 0;
+        width: 100%;
+    }
     /*Gioi Thieu*/
     table {
         position: relative;
