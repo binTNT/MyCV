@@ -182,6 +182,7 @@ table {
     /* border: 1px solid black; */
 }
 #results img {
+    height: 100px;
     transition: all 0.3s;
     border-radius: 10px;
 }
@@ -287,7 +288,7 @@ table {
         margin-top: 20px;
     }
     #results img {
-        height: 50px;
+        height: 20px;
         border-radius: 0;
     }
     /*Liên hệ*/
