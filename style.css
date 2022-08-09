@@ -31,9 +31,12 @@ body {
 #container {
     background-color: white;
     position: relative;
-    margin: 0px 4% 0 4%;
+    top: 50px;
+    margin: auto;
     padding: 20px 45px;
     height: 100%;
+    width: 80%;
+
 }
 /* Giới Thiệu  */
 #gioi-thieu {
@@ -227,13 +230,9 @@ table {
 #menu-child li:first-child {
     margin-left: 50px;
 }
-@media (max-width:450px){
+@media (max-width:800px){
     body {
         font-size: 7px;
-    }
-    #container {
-        margin: 0;
-        width: 100%;
     }
     /*Gioi Thieu*/
     table {
