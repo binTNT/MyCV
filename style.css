@@ -226,3 +226,79 @@ table {
 #menu-child li:first-child {
     margin-left: 50px;
 }
+@media (max-width:450px){
+    body {
+        font-size: 7px;
+    }
+    /*Gioi Thieu*/
+    table {
+        position: relative;
+        margin: 0;
+        margin-top: 20px;
+    }
+    #info li {
+        height: 15px;
+        line-height: 15px;
+    }
+    #avatar img {
+        border-radius: 50%;
+        height: 80px;
+    }
+    @keyframes info1 {
+        from {left: 0; opacity: 0;}
+        to {left: 20px;opacity: 1;}
+    }
+
+    /*Quá Trình Học Tập*/
+
+    #qua-trinh-hoc-tap ul {
+        margin-top: 10px;
+        /* list-style-type: none; */
+    }
+    #qua-trinh-hoc-tap li {
+        position: relative;
+        left: 10px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    /*Kỹ Năng*/
+    #skill ul {
+        width: 90%;
+    }
+    #skill img {
+        height: 30px;
+    }
+    #skill li > .skill-child {
+        top:30px;
+        height: 20px;
+        line-height: 20px;
+    }
+    #skill li:hover .skill-child {
+        top:40px;
+        opacity: 1;
+    }
+
+    /*San pham*/
+    #results ul {
+        width: 70%;
+    }
+    #results #menu {
+        margin-top: 20px;
+    }
+    #results img {
+        height: 50px;
+        border-radius: 0;
+    }
+    /*Liên hệ*/
+    #lien-he #menu{
+        width: 95%;
+    }
+    #lien-he li {
+        height: 20px;
+        line-height: 20px;
+    }
+    #mom li:first-child {
+        margin-left: 69px;
+    }
+}
